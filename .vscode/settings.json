@@ -1,0 +1,36 @@
+{
+  "eslint.validate": [
+    "html",
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "markdown",
+    "json"
+  ],
+  "editor.formatOnType": true,
+  "eslint.enable": true,
+  "prettier.singleQuote": true,
+  "eslint.workingDirectories": [{
+      "directory": "./app",
+      "changeProcessCWD": true
+    },
+    {
+      "directory": "./website",
+      "changeProcessCWD": true
+    }
+  ],
+  "markdown.extension.print.onFileSave": false,
+  "markdown.extension.toc.orderedList": true,
+  "javascript.validate.enable": true,
+  "standard.enable": false,
+  "markdown.extension.toc.levels": "2..6",
+  "cSpell.words": [
+    "Geany",
+    "architected",
+    "browserslist",
+    "grantha"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
