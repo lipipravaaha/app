@@ -1,6 +1,8 @@
-# Application as platform-as-a-service
+# Design and Architecture
 
-The `grantha` application for the initial release will be an Electron based app with the front-end based on react and the back-end for persistence and I/O within the single application.
+## Application as platform-as-a-service
+
+The `lipipravaaha` application for the initial release will be an Electron based app with the front-end based on react and the back-end for persistence and I/O within the single application.
 
 Following the first release, this single Electron application will be re-architected as a platform with following abstracted components:
 
@@ -13,7 +15,7 @@ Following the first release, this single Electron application will be re-archite
 3. A CLI
     - That calls out to the API exposed by the back-end.
 
-These components will reside in their own repositories. A new `grantha` organization will be created on GitHub under which these repositories will reside. A good example of this methodology is the [marp project](https://github.com/marp-team).
+These components will reside in their own repositories. A new `lipipravaaha` organization will be created on GitHub under which these repositories will reside. A good example of this methodology is the [marp project](https://github.com/marp-team).
 
 These abstractions will allow for:
 

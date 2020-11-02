@@ -1,23 +1,16 @@
 # lipipravaaha App
 
 1. [Overview](#overview)
-   1. [Metadata](#metadata)
-   2. [Continuous Integration](#continuous-integration)
-2. [Installation](#installation)
-3. [Usage](#usage)
-   1. [Viewing](#viewing)
+2. [Project](#project)
+   1. [Project Management](#project-management)
+3. [Product](#product)
 4. [Development](#development)
-   1. [Environment](#environment)
-   2. [Running Tests](#running-tests)
-   3. [CI, CD](#ci-cd)
-   4. [Upgrading to newer versions of development environments](#upgrading-to-newer-versions-of-development-environments)
-   5. [Contributing](#contributing)
-   6. [Other](#other)
-5. [Project Management](#project-management)
-6. [Links](#links)
-7. [Note](#note)
-8. [References](#references)
-9. [License](#license)
+   1. [Contributing](#contributing)
+   2. [Other](#other)
+5. [Links](#links)
+6. [Notes](#notes)
+7. [References](#references)
+8. [License](#license)
 
 An application for composing stories, novels, etc.
 
@@ -25,64 +18,48 @@ An application for composing stories, novels, etc.
 
 This is a **work-in-progress**.
 
-### Metadata
+[![Actions Status](https://github.com/lipipravaaha/app/workflows/build-test/badge.svg)](https://github.com/lipipravaaha/app/actions)
+[![GitHub Super-Linter](https://github.com/lipipravaaha/app/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
-| Provider                                                              | Data                                      | Status                                                                                                 |
-| --------------------------------------------------------------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| GitHub                                                                | Repo Size                                 | ![GitHub repo size](https://img.shields.io/github/repo-size/lipipravaaha/app)                     |
-| GitHub                                                                | Code Size                                 | ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/lipipravaaha/app)  |
-| GitHub                                                                | Commit Activity                           | ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/lipipravaaha/app)       |
-| GitHub                                                                | Last Commit                               | ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/lipipravaaha/app/master) |
-| GitHub                                                                | Open Issues                               | ![GitHub issues](https://img.shields.io/github/issues-raw/lipipravaaha/app)                       |
-| GitHub                                                                | Closed Issues                             | ![GitHub issues](https://img.shields.io/github/issues-closed/lipipravaaha/app)                    |
-| GitHub                                                                | Language Count                            | ![GitHub language count](https://img.shields.io/github/languages/count/lipipravaaha/app)          |
-| GitHub                                                                | License                                   | ![GitHub](https://img.shields.io/github/license/lipipravaaha/app)                                 |
-| [FOSSA](https://fossa.com/)                                           | Open Source Software Management           |                                                                                                        |
-| [CII Best Practices](https://bestpractices.coreinfrastructure.org/en) | Open source software best practices check |                                                                                                        |
-| [david-dm](https://david-dm.org/lipipravaaha/app?path=src)   | Check node.js dependency status           | ![David (path)](https://img.shields.io/david/lipipravaaha/app?path=src)                       |
-| david-dm                                                              | Check node.js dev dependency status       | ![David (path)](https://img.shields.io/david/lipipravaaha/app?path=src&type=dev)              |
+[More project metadata badges [here](./documentation/project/metadata.md). More CI/CD badges [here](./documentation/development/ci-cd.md#current-status).]
 
-### Continuous Integration
+## Project
 
-| Platform | Provider | Operations | Status |
-| -------- | -------- | ---------- | ------ |
+| Document | Link                                                                       |
+| -------- | -------------------------------------------------------------------------- |
+| Metadata | [./documentation/project/metadata.md](./documentation/project/metadata.md) |
 
-## Installation
+### Project Management
 
-## Usage
+[GitHub Projects](https://github.com/lipipravaaha/app/projects)
 
-### Viewing
+## Product
+
+| Document     | Link                                                                               |
+| ------------ | ---------------------------------------------------------------------------------- |
+| Installation | [./documentation/product/installation.md](./documentation/product/installation.md) |
+| Usage        | [./documentation/product/usage.md](./documentation/product/usage.md)               |
 
 ## Development
 
-### Environment
-
-| Language | Version | Package |
-| -------- | ------- | ------- |
-
-It is highly recommended to use [VS Code](https://code.visualstudio.com/).
-
-### Running Tests
-
-### CI, CD
-
-Methodology: [Document](/documentation/development/ci-cd.md)
-
-### Upgrading to newer versions of development environments
+| Document                | Link                                                                                                     |
+| ----------------------- | -------------------------------------------------------------------------------------------------------- |
+| Design and Architecture | [./documentation/development/design-architecture.md](./documentation/development/design-architecture.md) |
+| Requirements            | [./documentation/development/requirements.md](./documentation/development/requirements.md)               |
+| Testing                 | [./documentation/development/testing.md](./documentation/development/testing.md)                         |
+| CI/CD                   | [./documentation/development/ci-cd.md](./documentation/development/ci-cd.md)                             |
 
 ### Contributing
 
+[./.github/CONTRIBUTING.md](./.github/CONTRIBUTING.md)
+
 ### Other
-
-## Project Management
-
-[GitHub Projects](https://github.com/lipipravaaha/app/projects)
 
 ## Links
 
 - [Sourcegraph](https://sourcegraph.com/github.com/lipipravaaha/app/)
 
-## Note
+## Notes
 
 ## References
 
