@@ -12,11 +12,9 @@
 7. [References](#references)
 8. [License](#license)
 
-An application for composing stories, novels, etc.
-
 ## Overview
 
-This is a **work-in-progress**.
+An application for composing stories, novels, etc. This is a **work-in-progress**.
 
 [![Actions Status](https://github.com/lipipravaaha/app/workflows/build-test/badge.svg)](https://github.com/lipipravaaha/app/actions)
 [![GitHub Super-Linter](https://github.com/lipipravaaha/app/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
