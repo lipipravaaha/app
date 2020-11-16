@@ -32,5 +32,9 @@
   ],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  }
+  },
+  "files.watcherExclude": {
+    "**/target": true
+  },
+  "c3.rootPackage": ""
 }
