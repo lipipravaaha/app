@@ -1,0 +1,151 @@
+[
+  {
+    "name": "File",
+    "text": "File",
+    "children": [
+      {
+        "href": "",
+        "target": "",
+        "icon": "",
+        "text": "Open Project",
+        "index": 1
+      },
+      {
+        "href": "",
+        "target": "",
+        "icon": "",
+        "text": "Save Project",
+        "index": 2
+      },
+      {
+        "href": "",
+        "target": "",
+        "icon": "",
+        "text": "Save Project As...",
+        "index": 3
+      },
+      {
+        "href": "",
+        "target": "",
+        "icon": "",
+        "text": "Exit",
+        "index": 4
+      }
+    ]
+  },
+  {
+    "name": "Mode",
+    "text": "Mode",
+    "children": [
+      {
+        "href": "",
+        "target": "",
+        "icon": "",
+        "text": "General",
+        "index": 1
+      },
+      {
+        "href": "",
+        "target": "",
+        "icon": "",
+        "text": "Architecture",
+        "index": 2
+      },
+      {
+        "href": "",
+        "target": "",
+        "icon": "",
+        "text": "Characters",
+        "index": 3
+      },
+      {
+        "href": "",
+        "target": "",
+        "icon": "",
+        "text": "Locations",
+        "index": 4
+      },
+      {
+        "href": "",
+        "target": "",
+        "icon": "",
+        "text": "Plots",
+        "index": 5
+      },
+      {
+        "href": "",
+        "target": "",
+        "icon": "",
+        "text": "Chapters",
+        "index": 6
+      },
+      {
+        "href": "",
+        "target": "",
+        "icon": "",
+        "text": "Outline",
+        "index": 7
+      },
+      {
+        "href": "",
+        "target": "",
+        "icon": "",
+        "text": "MindMap",
+        "index": 8
+      },
+      {
+        "href": "",
+        "target": "",
+        "icon": "",
+        "text": "Analysis",
+        "index": 9,
+        "children": [
+          {
+            "href": "",
+            "target": "",
+            "icon": "",
+            "text": "Summary",
+            "index": 1
+          },
+          {
+            "href": "",
+            "target": "",
+            "icon": "",
+            "text": "Detailed",
+            "index": 2
+          }
+        ]
+      },
+      {
+        "href": "",
+        "target": "",
+        "icon": "",
+        "text": "Export",
+        "index": 10
+      },
+      {
+        "href": "",
+        "target": "",
+        "icon": "",
+        "text": "Help",
+        "index": 11,
+        "children": [
+          {
+            "href": "",
+            "target": "",
+            "icon": "",
+            "text": "Tips",
+            "index": 1
+          },
+          {
+            "href": "",
+            "target": "",
+            "icon": "",
+            "text": "About",
+            "index": 2
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,13 +1,49 @@
 import React from 'react';
-import logo from './../../logo.svg';
 import './App.css';
 import Container from '@material-ui/core/Container';
+import SideNavBar from '../SideNavBar/SideNavBar'
+import { makeStyles, Theme, createStyles } from '@material-ui/core/styles';
+import TopBar from '../TopBar/TopBar';
+import { Typography } from '@material-ui/core';
+
+const useStyles = makeStyles((theme: Theme) =>
+  createStyles({
+    root: {
+      flexGrow: 1
+    },
+    // necessary for content to be below app bar
+    toolbar: theme.mixins.toolbar,
+    content: {
+      flexGrow: 1,
+      margin: theme.spacing(3),
+      textAlign: 'left'
+    },
+  }),
+);
 
 function App() {
+  const classes = useStyles();
   return (
-    <Container className="App">
-      <img src={logo} className="App-logo" alt="logo" />
-    </Container>
+    <div className="App">
+      <div className={classes.root}>
+        <TopBar />
+        <main className={classes.content}>
+          <div className={classes.toolbar} />
+          <Typography paragraph>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Rhoncus dolor purus non enim praesent elementum
+            facilisis leo vel. Risus at ultrices mi tempus imperdiet. Semper risus in hendrerit
+            gravida rutrum quisque non tellus. Convallis convallis tellus id interdum velit laoreet id
+            donec ultrices. Odio morbi quis commodo odio aenean sed adipiscing. Amet nisl suscipit
+            adipiscing bibendum est ultricies integer quis. Cursus euismod quis viverra nibh cras.
+            Metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Mauris commodo quis
+            imperdiet massa tincidunt. Cras tincidunt lobortis feugiat vivamus at augue. At augue eget
+            arcu dictum varius duis at consectetur lorem. Velit sed ullamcorper morbi tincidunt. Lorem
+            donec massa sapien faucibus et molestie ac.
+          </Typography>
+        </main>
+      </div>
+    </div>
   );
 }
 
